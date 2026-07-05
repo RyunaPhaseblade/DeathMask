@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "o#o",
+    "#S#",
+    "A#A"
+  ],
+  "key": {
+    "o": "minecraft:diamond_block",
+    "#": "minecraft:golden_apple",
+    "S": "minecraft:sculk_shrieker",
+    "A": "quantumdeath:purified_sculk_fragment"
+  },
+  "result": {
+    "id": "quantumdeath:purified_sculk_apple"
+  }
+}

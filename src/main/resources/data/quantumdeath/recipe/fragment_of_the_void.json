@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "o#o",
+    "#E#",
+    "o#o"
+  ],
+  "key": {
+    "o": "quantumdeath:remnant_of_the_void",
+    "#": "minecraft:crying_obsidian",
+    "E": "minecraft:ender_eye"
+  },
+  "result": {
+    "id": "quantumdeath:fragment_of_the_void"
+  }
+}

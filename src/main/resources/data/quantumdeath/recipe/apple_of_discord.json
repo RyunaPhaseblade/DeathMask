@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "oGo",
+    "#g#",
+    "G#G"
+  ],
+  "key": {
+    "o": "minecraft:diamond_block",
+    "G": "minecraft:gold_block",
+    "#": "quantumdeath:shard_of_discord",
+    "g": "minecraft:golden_apple"
+  },
+  "result": {
+    "id": "quantumdeath:apple_of_discord",
+    "count": 1
+  }
+}

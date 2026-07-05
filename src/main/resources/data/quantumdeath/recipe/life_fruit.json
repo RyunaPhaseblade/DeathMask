@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": false,
+  "ingredients": [
+    "quantumdeath:shard_of_discord",
+    "minecraft:golden_carrot",
+    "minecraft:golden_carrot",
+    "minecraft:golden_carrot",
+    "minecraft:golden_carrot",
+    "minecraft:glistering_melon_slice",
+    "minecraft:glistering_melon_slice",
+    "minecraft:glistering_melon_slice",
+    "minecraft:glistering_melon_slice"
+  ],
+  "result": {
+    "id": "quantumdeath:life_fruit",
+    "count": 4
+  }
+}

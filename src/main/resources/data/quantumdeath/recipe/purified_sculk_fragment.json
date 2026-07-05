@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "#o#",
+    "o#o",
+    "#S#"
+  ],
+  "key": {
+    "#": "minecraft:echo_shard",
+    "o": "quantumdeath:shard_of_discord",
+    "S": "minecraft:sculk_catalyst"
+  },
+  "result": {
+    "id": "quantumdeath:purified_sculk_fragment"
+  }
+}

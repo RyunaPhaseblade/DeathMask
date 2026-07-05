@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "show_notification": false,
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:shulker_shell",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "quantumdeath:reinforced_shulker_shell"
+  }
+}

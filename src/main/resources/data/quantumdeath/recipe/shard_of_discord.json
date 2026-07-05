@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "o#o",
+    "#C#",
+    "o#o"
+  ],
+  "key": {
+    "o": "minecraft:diamond",
+    "#": "minecraft:large_amethyst_bud",
+    "C": "minecraft:crying_obsidian"
+  },
+  "result": {
+    "id": "quantumdeath:shard_of_discord",
+    "count": 2
+  }
+}

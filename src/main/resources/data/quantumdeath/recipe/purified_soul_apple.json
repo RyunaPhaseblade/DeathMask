@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "o#o",
+    "#E#",
+    "Q#Q"
+  ],
+  "key": {
+    "o": "minecraft:diamond_block",
+    "#": "minecraft:netherite_ingot",
+    "E": "minecraft:enchanted_golden_apple",
+    "Q": "quantumdeath:purified_soul_fragment"
+  },
+  "result": {
+    "id": "quantumdeath:purified_soul_apple"
+  }
+}

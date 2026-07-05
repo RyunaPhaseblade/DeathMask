@@ -1,0 +1,23 @@
+{
+  "creativeTab.quantum-death-mod": "Quantumdeath",
+  "item.quantumdeath.suspicious_substance": "Suspicious Substance II",
+  "item.quantumdeath.shard_of_discord": "Shard Of Discord",
+  "item.quantumdeath.purified_sculk_fragment": "Purified Sculk Fragment",
+  "item.quantumdeath.soul_vessel": "Soul Vessel",
+  "item.quantumdeath.purified_soul_fragment": "Purified Soul Fragment",
+  "item.quantumdeath.remnant_of_the_void": "Remnant Of The Void",
+  "item.quantumdeath.fragment_of_the_void": "Fragment Of The Void",
+  "item.quantumdeath.reinforced_shulker_shell": "Reinforced Shulker Shell",
+  "item.quantumdeath.life_fruit": "Life Fruit",
+
+  
+  "item.quantumdeath.quantum_apple.lore1": "§d§oA holy blessing rests within this fruit. Its power",
+  "item.quantumdeath.quantum_apple.lore2": "§dremains only while the bearer walks among the living.",
+  "item.quantumdeath.quantum_apple.lore3": "§1+1 Extra Heart",
+  
+  "item.quantumdeath.apple_of_discord": "Apple Of Discord",
+  "item.quantumdeath.purified_sculk_apple": "Purified Sculk Apple",
+  "item.quantumdeath.purified_soul_apple": "Purified Soul Apple",
+  "item.quantumdeath.apple_of_the_void": "Apple Of The Void"
+  
+}

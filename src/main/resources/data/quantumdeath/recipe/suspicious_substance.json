@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "o#o",
+    "#T#",
+    "o#o"
+  ],
+  "key": {
+    "o": "minecraft:diamond",
+    "#": "minecraft:golden_apple",
+    "T": "minecraft:totem_of_undying"
+  },
+  "result": {"id": "quantumdeath:suspicious_substance", "count": 1}
+}
