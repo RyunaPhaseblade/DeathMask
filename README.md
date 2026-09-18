@@ -1,5 +1,4 @@
 # Quantumdeath
 
-Minecraft progress developer. 
+Minecraft Mod. Work in progress.
 
-here you can catch up withc the mod code
