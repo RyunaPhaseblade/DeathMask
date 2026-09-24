@@ -18,6 +18,9 @@
   "item.quantumdeath.apple_of_discord": "Apple Of Discord",
   "item.quantumdeath.purified_sculk_apple": "Purified Sculk Apple",
   "item.quantumdeath.purified_soul_apple": "Purified Soul Apple",
-  "item.quantumdeath.apple_of_the_void": "Apple Of The Void"
+  "item.quantumdeath.apple_of_the_void": "Apple Of The Void",
+
+  "effect.quantumdeath.anti_perma_burn": "Anti-Perma Burn",
+  "potion.quantumdeath.anti_perma_burn": "Anti-Perma Burn"
   
 }

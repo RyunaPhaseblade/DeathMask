@@ -8,6 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import ryuna.qdeath.moditems.modItems;
+import ryuna.qdeath.events.modEvents;
+import ryuna.qdeath.effects.modEffects;
 
 public class Quantumdeath implements ModInitializer {
 	public static final String MOD_ID = "quantumdeath";
@@ -25,6 +27,8 @@ public class Quantumdeath implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		modItems.initialize();
+		modEffects.register();
+		modEvents.register();
 	}
 
 	public static Identifier id(String path) {

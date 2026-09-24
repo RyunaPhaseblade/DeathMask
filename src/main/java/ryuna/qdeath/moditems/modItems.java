@@ -6,13 +6,8 @@ import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-//import net.minecraft.world.item.component.Consumable;
-//import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.component.ItemLore;
-//import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
-import net.fabricmc.fabric.api.registry.CompostableRegistry;
-import net.fabricmc.fabric.api.registry.FuelValueEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -170,21 +165,12 @@ public class modItems {
 		
 		// Register items here
 
-		//Registrarlo en una creative tab
+		//Registrarlo en una creative tab existente
         /*CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).
         register((creativeTab) -> {
 			creativeTab.accept(modItems.SUSPICIOUS_SUBSTANCE);
 			creativeTab.accept(modItems.QUANTUM_APPLE);
 		});*/
-
-		//Registrarlo como composter item
-		CompostableRegistry.INSTANCE.add(modItems.SUSPICIOUS_SUBSTANCE, 0.3f);
-
-		//Registrarlo como combustible
-		FuelValueEvents.BUILD.register((builder, context) -> {
-			builder.add(modItems.SUSPICIOUS_SUBSTANCE, 30 * 20);
-		});
-
 
 
     }

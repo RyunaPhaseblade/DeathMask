@@ -1,5 +1,8 @@
 # Quantumdeath
 
-Minecraft progress developer. 
+## 26.3
 
-here you can catch up withc the mod code
+## License
+
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+
