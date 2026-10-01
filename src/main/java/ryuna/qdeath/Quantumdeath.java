@@ -78,7 +78,7 @@ public class Quantumdeath implements ModInitializer {
 		if (intro.quantumdeath$hasReceivedNotes()) return;
 		intro.quantumdeath$setReceivedNotes(true);
 		var notes = InitialNotes.create();
-		if (!player.addItem(notes)) player.drop(notes, false);
+		if (!player.addItem(notes)) player.drop(notes, false, net.minecraft.util.Prediction.SERVER_ONLY);
 	}
 
 	public static Identifier id(String path) {

@@ -18,7 +18,7 @@ import java.util.EnumSet;
 
 public class BifauceEntity extends Monster {
     public BifauceEntity(EntityType<? extends BifauceEntity> type, Level level) { super(type, level); this.xpReward = 5; }
-    public static AttributeSupplier.Builder createAttributes() { return net.minecraft.world.entity.monster.EnderMan.createAttributes(); }
+    public static AttributeSupplier.Builder createAttributes() { return net.minecraft.world.entity.monster.Enderman.createAttributes(); }
     @Override public boolean checkSpawnRules(LevelAccessor level, EntitySpawnReason reason) {
         return level instanceof ServerLevelAccessor server && Monster.checkMonsterSpawnRules(ModEntities.BIFAUCE, server, reason, blockPosition(), random);
     }

@@ -31,7 +31,7 @@ public class DamperEntity extends Monster {
     private int torchActionCooldown = TORCH_ACTION_INTERVAL;
     private BlockPos torchTarget;
     public DamperEntity(EntityType<? extends DamperEntity> type, Level level) { super(type, level); this.xpReward = 5; }
-    public static AttributeSupplier.Builder createAttributes() { return net.minecraft.world.entity.monster.EnderMan.createAttributes(); }
+    public static AttributeSupplier.Builder createAttributes() { return net.minecraft.world.entity.monster.Enderman.createAttributes(); }
     @Override public boolean checkSpawnRules(LevelAccessor level, EntitySpawnReason reason) {
         return level instanceof ServerLevelAccessor server && Monster.checkMonsterSpawnRules(ModEntities.DAMPER, server, reason, blockPosition(), random);
     }

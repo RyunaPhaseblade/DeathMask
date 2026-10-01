@@ -13,7 +13,6 @@ import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.state.EntityRenderState;
-import net.minecraft.client.renderer.feature.ModelFeatureRenderer;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.client.renderer.state.level.CameraRenderState;
@@ -47,10 +46,10 @@ public class SwarmArmRenderer extends EntityRenderer<SwarmArmProjectile, SwarmAr
 
     @Override public void submit(ArmRenderState state, PoseStack poseStack, SubmitNodeCollector collector, CameraRenderState cameraState) {
         poseStack.pushPose();
-        poseStack.mulPose(Axis.YP.rotationDegrees(180.0f - state.yRot));
-        poseStack.mulPose(Axis.XP.rotationDegrees(state.xRot));
+        poseStack.rotateDegrees(Axis.YP, 180.0f - state.yRot);
+        poseStack.rotateDegrees(Axis.XP, state.xRot);
         poseStack.scale(1.0f, 1.0f, 1.0f);
-        collector.submitModel(armModel, state, poseStack, TEXTURE, state.lightCoords, OverlayTexture.NO_OVERLAY, state.outlineColor, (ModelFeatureRenderer.CrumblingOverlay) null);
+        collector.submitModel(armModel, state, poseStack, TEXTURE, state.lightCoords, OverlayTexture.NO_OVERLAY, state.outlineColor);
         poseStack.popPose();
     }
 
