@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "pattern": [
+    "E#E",
+    "#B#",
+    "E#E"
+  ],
+  "key": {
+    "E": "minecraft:ender_pearl",
+    "#": "minecraft:crying_obsidian",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "quantumdeath:wisdom_of_the_void"
+  }
+}

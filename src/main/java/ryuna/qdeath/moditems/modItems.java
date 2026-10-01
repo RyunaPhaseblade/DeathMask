@@ -20,6 +20,9 @@ import java.util.List;
 
 //Custom items
 import ryuna.qdeath.moditems.items.qapplei;
+import ryuna.qdeath.moditems.items.WisdomOfTheVoidItem;
+import ryuna.qdeath.entity.ModEntities;
+import net.minecraft.world.item.SpawnEggItem;
 
 
 
@@ -46,6 +49,11 @@ public class modItems {
 	public static final Item REMNANT_OF_THE_VOID = register("remnant_of_the_void", Item::new, new Item.Properties().rarity(Rarity.RARE));
 	public static final Item FRAGMENT_OF_THE_VOID = register("fragment_of_the_void", Item::new, new Item.Properties().rarity(Rarity.EPIC));
 	public static final Item REINFORCED_SHULKER_SHELL = register("reinforced_shulker_shell", Item::new, new Item.Properties().rarity(Rarity.RARE));
+	public static final Item WISDOM_OF_THE_VOID = register("wisdom_of_the_void", WisdomOfTheVoidItem::new, new Item.Properties().stacksTo(1).rarity(Rarity.RARE));
+	public static final Item SWARM_EYE_SPAWN_EGG = register("swarm_eye_spawn_egg", SpawnEggItem::new, new Item.Properties().spawnEgg(ModEntities.SWARM_EYE));
+	public static final Item DAMPER_SPAWN_EGG = register("damper_spawn_egg", SpawnEggItem::new, new Item.Properties().spawnEgg(ModEntities.DAMPER));
+	public static final Item BIFAUCE_SPAWN_EGG = register("bifauce_spawn_egg", SpawnEggItem::new, new Item.Properties().spawnEgg(ModEntities.BIFAUCE));
+	public static final Item FAKE_CREEPER_SPAWN_EGG = register("fake_creeper_spawn_egg", SpawnEggItem::new, new Item.Properties().spawnEgg(ModEntities.FAKE_CREEPER));
 
 	public static final Item LIFE_FRUIT = register("life_fruit", 
 	properties -> new Item(properties.food(
@@ -153,6 +161,11 @@ public class modItems {
 				output.accept(modItems.REMNANT_OF_THE_VOID);
 				output.accept(modItems.FRAGMENT_OF_THE_VOID);
 				output.accept(modItems.REINFORCED_SHULKER_SHELL);
+				output.accept(modItems.WISDOM_OF_THE_VOID);
+				output.accept(modItems.SWARM_EYE_SPAWN_EGG);
+				output.accept(modItems.DAMPER_SPAWN_EGG);
+				output.accept(modItems.BIFAUCE_SPAWN_EGG);
+				output.accept(modItems.FAKE_CREEPER_SPAWN_EGG);
 
 			})	
 			.build();

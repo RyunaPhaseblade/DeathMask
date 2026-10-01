@@ -3,7 +3,8 @@
 	"package": "ryuna.qdeath.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"ServerPlayerSkillMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
