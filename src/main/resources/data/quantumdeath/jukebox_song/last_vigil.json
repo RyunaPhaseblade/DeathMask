@@ -1,0 +1,8 @@
+{
+  "sound_event": "quantumdeath:music.vigil",
+  "description": {
+    "translate": "jukebox_song.quantumdeath.last_vigil"
+  },
+  "length_in_seconds": 150.0,
+  "comparator_output": 15
+}

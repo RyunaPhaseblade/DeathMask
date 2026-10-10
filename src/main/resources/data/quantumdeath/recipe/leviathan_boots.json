@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "T T",
+    "M M"
+  ],
+  "key": {
+    "M": "quantumdeath:leviathan_scale",
+    "T": "quantumdeath:stygian_pearl"
+  },
+  "result": {
+    "id": "quantumdeath:leviathan_boots",
+    "count": 1
+  }
+}

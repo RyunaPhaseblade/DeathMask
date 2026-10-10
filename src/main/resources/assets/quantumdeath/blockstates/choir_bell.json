@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "note=0": {
+      "model": "quantumdeath:block/choir_bell",
+      "y": 0
+    },
+    "note=1": {
+      "model": "quantumdeath:block/choir_bell",
+      "y": 90
+    },
+    "note=2": {
+      "model": "quantumdeath:block/choir_bell",
+      "y": 180
+    },
+    "note=3": {
+      "model": "quantumdeath:block/choir_bell",
+      "y": 270
+    }
+  }
+}

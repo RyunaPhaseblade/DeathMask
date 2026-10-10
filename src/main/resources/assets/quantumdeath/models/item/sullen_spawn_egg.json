@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quantumdeath:item/sullen_spawn_egg"
+  }
+}

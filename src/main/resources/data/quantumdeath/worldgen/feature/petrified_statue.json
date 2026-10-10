@@ -1,0 +1,10 @@
+{
+  "type": "quantumdeath:statue",
+  "body": {
+    "id": "quantumdeath:petrified_soul",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "head": "minecraft:skeleton_skull"
+}

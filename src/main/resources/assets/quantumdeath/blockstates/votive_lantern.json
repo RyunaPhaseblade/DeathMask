@@ -1,0 +1,58 @@
+{
+  "variants": {
+    "fuel=0,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern"
+    },
+    "fuel=0,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_hanging"
+    },
+    "fuel=1,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern_guttering"
+    },
+    "fuel=1,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_guttering_hanging"
+    },
+    "fuel=2,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern_consecrated"
+    },
+    "fuel=2,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_consecrated_hanging"
+    },
+    "fuel=3,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern_consecrated"
+    },
+    "fuel=3,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_consecrated_hanging"
+    },
+    "fuel=4,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern_consecrated"
+    },
+    "fuel=4,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_consecrated_hanging"
+    },
+    "fuel=5,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern_consecrated"
+    },
+    "fuel=5,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_consecrated_hanging"
+    },
+    "fuel=6,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern_consecrated"
+    },
+    "fuel=6,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_consecrated_hanging"
+    },
+    "fuel=7,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern_consecrated"
+    },
+    "fuel=7,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_consecrated_hanging"
+    },
+    "fuel=8,hanging=false": {
+      "model": "quantumdeath:block/votive_lantern_consecrated"
+    },
+    "fuel=8,hanging=true": {
+      "model": "quantumdeath:block/votive_lantern_consecrated_hanging"
+    }
+  }
+}

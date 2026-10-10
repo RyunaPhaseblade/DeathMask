@@ -26,6 +26,28 @@ fabricApi {
 	configureDataGeneration {
 		client = true
 	}
+	// Client gametests (./gradlew runClientGameTest) drive a real client through every Hell layer and save screenshots.
+	// Server gametests stay off so `build` never launches the game.
+	configureTests {
+		createSourceSet = true
+		modId = "quantumdeath-gametest"
+		enableGameTests = false
+		enableClientGameTests = true
+		eula = true
+	}
+}
+
+loom {
+	runs {
+		// Dev-only: generates each Hell layer headlessly and writes terrain slices/maps to run-dump/worldgen-dump.
+		worldgenDump {
+			server()
+			name = "Worldgen Dump"
+			runDir = "run-dump"
+			vmArg "-Dquantumdeath.worldgenDump=true"
+			programArgs "--nogui"
+		}
+	}
 }
 
 dependencies {

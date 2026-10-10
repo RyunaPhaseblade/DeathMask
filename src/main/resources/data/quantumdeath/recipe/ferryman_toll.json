@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OOO",
+    "OGO",
+    "OOO"
+  ],
+  "key": {
+    "O": "quantumdeath:ashen_obol",
+    "G": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "quantumdeath:ferryman_toll",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "quantumdeath:dead_tree",
+  "log": {
+    "id": "quantumdeath:bleeding_log",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 5,
+    "max_inclusive": 11
+  }
+}

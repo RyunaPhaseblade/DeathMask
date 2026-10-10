@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quantumdeath:item/chest_tsukumogami_spawn_egg"
+  }
+}

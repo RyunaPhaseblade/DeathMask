@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "GBG",
+    " S "
+  ],
+  "key": {
+    "M": "quantumdeath:mask_fragment",
+    "G": "minecraft:gold_ingot",
+    "B": "minecraft:bell",
+    "S": "quantumdeath:soul_ash"
+  },
+  "result": {
+    "id": "quantumdeath:mourning_bell",
+    "count": 1
+  }
+}

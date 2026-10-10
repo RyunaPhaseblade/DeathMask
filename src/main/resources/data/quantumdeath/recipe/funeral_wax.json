@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:candle",
+    "quantumdeath:soul_ash",
+    "quantumdeath:soul_ash"
+  ],
+  "result": {
+    "id": "quantumdeath:funeral_wax",
+    "count": 2
+  }
+}

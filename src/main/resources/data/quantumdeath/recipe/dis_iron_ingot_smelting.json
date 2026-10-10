@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": "quantumdeath:raw_dis_iron",
+  "result": {
+    "id": "quantumdeath:dis_iron_ingot"
+  }
+}

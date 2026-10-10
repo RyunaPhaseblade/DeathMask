@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EIE",
+    "EBE",
+    "EIE"
+  ],
+  "key": {
+    "E": "quantumdeath:heretic_ember",
+    "I": "quantumdeath:dis_iron_ingot",
+    "B": "minecraft:writable_book"
+  },
+  "result": {
+    "id": "quantumdeath:heretics_confession",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "quantumdeath:hell_structure",
+  "kind": "procession_pit",
+  "placement": "open",
+  "min_y": 34,
+  "max_y": 130,
+  "biomes": "#quantumdeath:in_vestibule",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "terrain_adaptation": "beard_thin"
+}

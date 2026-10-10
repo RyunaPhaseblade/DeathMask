@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quantumdeath:item/walking_ossuary_spawn_egg"
+  }
+}

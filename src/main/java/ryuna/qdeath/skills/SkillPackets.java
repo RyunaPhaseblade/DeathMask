@@ -5,10 +5,12 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import ryuna.qdeath.Quantumdeath;
 
-import java.util.EnumSet;
+import java.util.ArrayList;
+import java.util.List;
 
 public final class SkillPackets {
     private SkillPackets() { }
+    /** Client request to learn a node, by stable id. The server checks points and prerequisites. */
     public record UnlockRequest(String skill) implements CustomPacketPayload {
         public static final Type<UnlockRequest> TYPE = new Type<>(Quantumdeath.id("unlock_skill"));
         public static final StreamCodec<RegistryFriendlyByteBuf, UnlockRequest> CODEC = CustomPacketPayload.codec(UnlockRequest::write, UnlockRequest::read);
@@ -16,22 +18,22 @@ public final class SkillPackets {
         private void write(RegistryFriendlyByteBuf buf) { buf.writeUtf(skill, 64); }
         @Override public Type<? extends CustomPacketPayload> type() { return TYPE; }
     }
-    public record Sync(int points, EnumSet<SkillId> unlocked) implements CustomPacketPayload {
+    /** General points, unlocked ids and the server's cost of every node (in {@link SkillId} order). */
+    public record Sync(int points, List<String> unlocked, int[] costs) implements CustomPacketPayload {
         public static final Type<Sync> TYPE = new Type<>(Quantumdeath.id("skills_sync"));
         public static final StreamCodec<RegistryFriendlyByteBuf, Sync> CODEC = CustomPacketPayload.codec(Sync::write, Sync::read);
         private static Sync read(RegistryFriendlyByteBuf buf) {
-            var skills = EnumSet.noneOf(SkillId.class);
-            int count = buf.readVarInt();
-            for (int i = 0; i < count; i++) {
-                int ordinal = buf.readVarInt();
-                if (ordinal >= 0 && ordinal < SkillId.values().length) skills.add(SkillId.values()[ordinal]);
-            }
-            return new Sync(buf.readVarInt(), skills);
+            int points = buf.readVarInt();
+            int count = Math.min(64, buf.readVarInt());
+            List<String> ids = new ArrayList<>(count);
+            for (int i = 0; i < count; i++) ids.add(buf.readUtf(64));
+            return new Sync(points, ids, buf.readVarIntArray());
         }
         private void write(RegistryFriendlyByteBuf buf) {
-            buf.writeVarInt(unlocked.size());
-            unlocked.forEach(skill -> buf.writeVarInt(skill.ordinal()));
             buf.writeVarInt(points);
+            buf.writeVarInt(unlocked.size());
+            unlocked.forEach(id -> buf.writeUtf(id, 64));
+            buf.writeVarIntArray(costs);
         }
         @Override public Type<? extends CustomPacketPayload> type() { return TYPE; }
     }

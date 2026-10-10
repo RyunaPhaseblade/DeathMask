@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "quantumdeath:block/chiseled_ashen_bricks"
+  }
+}

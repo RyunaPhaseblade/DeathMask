@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "P P",
+    "PBP",
+    "P P"
+  ],
+  "key": {
+    "P": "quantumdeath:charred_planks",
+    "B": "minecraft:bone"
+  },
+  "result": {
+    "id": "quantumdeath:funeral_barricade",
+    "count": 3
+  }
+}

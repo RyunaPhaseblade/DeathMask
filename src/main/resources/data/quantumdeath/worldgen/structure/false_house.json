@@ -1,0 +1,11 @@
+{
+  "type": "quantumdeath:hell_structure",
+  "kind": "false_house",
+  "placement": "surface",
+  "min_y": 50,
+  "max_y": 110,
+  "biomes": "#quantumdeath:in_zenith",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "terrain_adaptation": "none"
+}

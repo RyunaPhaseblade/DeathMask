@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "quantumdeath:block/drowned_log_top",
+    "side": "quantumdeath:block/drowned_log_side"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PTP",
+    "TBT",
+    "PTP"
+  ],
+  "key": {
+    "P": "quantumdeath:stygian_pearl",
+    "T": "quantumdeath:tar",
+    "B": "minecraft:bell"
+  },
+  "result": {
+    "id": "quantumdeath:stygian_lure",
+    "count": 1
+  }
+}

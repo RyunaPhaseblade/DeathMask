@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumdeath:block/charred_log"
+    },
+    "axis=z": {
+      "model": "quantumdeath:block/charred_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumdeath:block/charred_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

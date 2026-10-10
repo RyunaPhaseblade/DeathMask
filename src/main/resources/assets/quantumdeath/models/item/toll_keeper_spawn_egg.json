@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quantumdeath:item/toll_keeper_spawn_egg"
+  }
+}

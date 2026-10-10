@@ -1,0 +1,27 @@
+{
+  "values": [
+    "quantumdeath:votive_lantern",
+    "quantumdeath:breach_anchor",
+    "quantumdeath:descent_gate",
+    "quantumdeath:ascent_gate",
+    "quantumdeath:sealed_door",
+    "quantumdeath:sealed_sarcophagus",
+    "quantumdeath:choir_bell",
+    "quantumdeath:vigil_bell",
+    "quantumdeath:limbo_grave",
+    "quantumdeath:pilgrim_remains",
+    "quantumdeath:toll_brazier",
+    "quantumdeath:feast_altar",
+    "quantumdeath:drowned_bell",
+    "quantumdeath:confession_lectern",
+    "quantumdeath:last_vigil_altar",
+    "#minecraft:portals",
+    "#minecraft:lanterns",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:bedrock",
+    "minecraft:reinforced_deepslate",
+    "minecraft:respawn_anchor",
+    "minecraft:end_portal_frame"
+  ]
+}

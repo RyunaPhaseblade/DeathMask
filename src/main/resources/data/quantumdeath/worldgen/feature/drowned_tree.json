@@ -1,0 +1,14 @@
+{
+  "type": "quantumdeath:dead_tree",
+  "log": {
+    "id": "quantumdeath:drowned_log",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 3,
+    "max_inclusive": 7
+  }
+}

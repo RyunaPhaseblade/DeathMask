@@ -1,0 +1,10 @@
+{
+  "type": "quantumdeath:spire",
+  "block": "minecraft:packed_ice",
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 8,
+    "max_inclusive": 26
+  },
+  "radius": 2
+}

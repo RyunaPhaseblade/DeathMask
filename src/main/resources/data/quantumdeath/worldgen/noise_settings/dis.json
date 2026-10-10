@@ -1,0 +1,228 @@
+{
+  "noise": {
+    "min_y": 0,
+    "height": 256
+  },
+  "default_block": "minecraft:blackstone",
+  "default_fluid": "minecraft:lava",
+  "noise_router": {
+    "chunk_surface_level": 0.0,
+    "continents": 0.0,
+    "depth": 0.0,
+    "erosion": 0.0,
+    "ridges": 0.0,
+    "final_density": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:squeeze",
+        "input": {
+          "type": "minecraft:interpolated",
+          "cell_size_xz": 4,
+          "cell_size_y": 4,
+          "input": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:blend_density",
+              "input": {
+                "type": "minecraft:add",
+                "left": {
+                  "type": "minecraft:add",
+                  "left": {
+                    "type": "minecraft:gradient",
+                    "axis": "y",
+                    "from_coordinate": 30,
+                    "from_value": 1.5,
+                    "to_coordinate": 130,
+                    "to_value": -1.5
+                  },
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": {
+                      "type": "minecraft:mul",
+                      "left": {
+                        "type": "minecraft:mul",
+                        "left": {
+                          "type": "minecraft:floor",
+                          "input": {
+                            "type": "minecraft:mul",
+                            "left": {
+                              "type": "minecraft:noise",
+                              "noise": "quantumdeath:dis_terraces",
+                              "xz_scale": 1.0,
+                              "y_scale": 0.0
+                            },
+                            "right": 3.0
+                          }
+                        },
+                        "right": 0.3333333333333333
+                      },
+                      "right": 2.4
+                    },
+                    "right": {
+                      "type": "minecraft:mul",
+                      "left": {
+                        "type": "minecraft:old_blended_noise",
+                        "xz_scale": 0.25,
+                        "y_scale": 0.25,
+                        "xz_factor": 80.0,
+                        "y_factor": 80.0,
+                        "smear_scale_multiplier": 8.0
+                      },
+                      "right": 0.04
+                    }
+                  }
+                },
+                "right": {
+                  "type": "minecraft:gradient",
+                  "axis": "y",
+                  "from_coordinate": 220,
+                  "from_value": 0.0,
+                  "to_coordinate": 256,
+                  "to_value": 5.0
+                }
+              }
+            },
+            "right": 0.64
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:beardifier"
+      }
+    },
+    "temperature": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:nether/temperature",
+      "xz_scale": 0.25,
+      "y_scale": 0.0
+    },
+    "vegetation": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:nether/vegetation",
+      "xz_scale": 0.25,
+      "y_scale": 0.0
+    }
+  },
+  "material_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      "minecraft:bedrock_floor",
+      "minecraft:bedrock_roof",
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "quantumdeath:iron_necropolis"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": "minecraft:on_floor",
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:y_above",
+                  "anchor": {
+                    "absolute": 58
+                  },
+                  "surface_depth_multiplier": 0,
+                  "add_stone_depth": false
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": "quantumdeath:dis_bricks"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": "minecraft:under_floor",
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": "minecraft:polished_blackstone"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "quantumdeath:forest_of_suicides"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": "minecraft:on_floor",
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": "minecraft:soul_soil"
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": "minecraft:under_floor",
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": "minecraft:soul_soil"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "quantumdeath:burning_fields"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": "minecraft:on_floor",
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:noise_threshold",
+                      "noise": "minecraft:nether_state_selector",
+                      "min_threshold": 0.2,
+                      "max_threshold": 1e+300
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": "minecraft:magma_block"
+                    }
+                  },
+                  {
+                    "type": "minecraft:block",
+                    "result_state": "minecraft:blackstone"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "spawn_target": [],
+  "sea_level": 50,
+  "disable_mob_generation": false,
+  "legacy_random_source": true
+}

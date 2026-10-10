@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "quantumdeath:block/ash_print",
+    "particle": "quantumdeath:block/ash"
+  }
+}

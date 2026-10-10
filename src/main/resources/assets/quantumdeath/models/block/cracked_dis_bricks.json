@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "quantumdeath:block/cracked_dis_bricks"
+  }
+}

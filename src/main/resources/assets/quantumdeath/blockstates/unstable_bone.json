@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "cracks=0": {
+      "model": "quantumdeath:block/unstable_bone_0"
+    },
+    "cracks=1": {
+      "model": "quantumdeath:block/unstable_bone_1"
+    },
+    "cracks=2": {
+      "model": "quantumdeath:block/unstable_bone_2"
+    },
+    "cracks=3": {
+      "model": "quantumdeath:block/unstable_bone_3"
+    }
+  }
+}

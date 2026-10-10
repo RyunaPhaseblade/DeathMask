@@ -1,0 +1,11 @@
+{
+  "type": "quantumdeath:spire",
+  "block": "quantumdeath:ashen_stone",
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 4,
+    "max_inclusive": 12
+  },
+  "radius": 2,
+  "hanging": true
+}

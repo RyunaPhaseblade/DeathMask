@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 66609,
+    "separation": 4,
+    "spacing": 10
+  },
+  "structures": [
+    {
+      "structure": "quantumdeath:dis_watchtower",
+      "weight": 1
+    }
+  ]
+}

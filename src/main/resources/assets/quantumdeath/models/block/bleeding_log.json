@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "quantumdeath:block/bleeding_log_top",
+    "side": "quantumdeath:block/bleeding_log_side"
+  }
+}

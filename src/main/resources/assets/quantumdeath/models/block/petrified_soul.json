@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "quantumdeath:block/petrified_soul_top",
+    "side": "quantumdeath:block/petrified_soul_side"
+  }
+}

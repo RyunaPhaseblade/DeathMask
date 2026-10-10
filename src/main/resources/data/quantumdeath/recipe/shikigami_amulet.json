@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GSG",
+    "SQS",
+    "GSG"
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "S": "minecraft:string",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "id": "quantumdeath:shikigami_amulet",
+    "count": 1
+  }
+}

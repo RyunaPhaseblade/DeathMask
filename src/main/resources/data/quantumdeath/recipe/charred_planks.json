@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "quantumdeath:charred_log"
+  ],
+  "result": {
+    "id": "quantumdeath:charred_planks",
+    "count": 4
+  }
+}

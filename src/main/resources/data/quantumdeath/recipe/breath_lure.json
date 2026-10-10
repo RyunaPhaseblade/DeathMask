@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "quantumdeath:soul_ash",
+    "quantumdeath:ashen_obol"
+  ],
+  "result": {
+    "id": "quantumdeath:breath_lure",
+    "count": 2
+  }
+}

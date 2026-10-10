@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "quantumdeath:block/rotting_stalk_top",
+    "side": "quantumdeath:block/rotting_stalk_side"
+  }
+}

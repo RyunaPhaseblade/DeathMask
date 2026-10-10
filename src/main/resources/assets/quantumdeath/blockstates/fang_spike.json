@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "quantumdeath:block/fang_spike"
+    },
+    "hanging=true": {
+      "model": "quantumdeath:block/fang_spike",
+      "x": 180
+    }
+  }
+}

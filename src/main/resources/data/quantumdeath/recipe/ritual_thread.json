@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:paper",
+    "minecraft:quartz"
+  ],
+  "result": {
+    "id": "quantumdeath:ritual_thread",
+    "count": 1
+  }
+}

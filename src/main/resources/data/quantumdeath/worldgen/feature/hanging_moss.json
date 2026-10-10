@@ -1,0 +1,20 @@
+{
+  "type": "quantumdeath:hanging",
+  "block": {
+    "id": "minecraft:pale_hanging_moss",
+    "properties": {
+      "tip": "false"
+    }
+  },
+  "tip": {
+    "id": "minecraft:pale_hanging_moss",
+    "properties": {
+      "tip": "true"
+    }
+  },
+  "length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 2,
+    "max_inclusive": 9
+  }
+}

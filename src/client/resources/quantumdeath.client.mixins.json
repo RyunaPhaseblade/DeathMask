@@ -3,7 +3,9 @@
 	"package": "ryuna.qdeath.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"ExampleClientMixin",
+		"LivingEntityRenderStateMixin",
+		"PossessedHostRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

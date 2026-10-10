@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 66606,
+    "separation": 10,
+    "spacing": 26
+  },
+  "structures": [
+    {
+      "structure": "quantumdeath:drowned_choir",
+      "weight": 1
+    }
+  ]
+}

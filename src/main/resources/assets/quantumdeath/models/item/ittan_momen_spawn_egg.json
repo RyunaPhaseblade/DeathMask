@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quantumdeath:item/ittan_momen_spawn_egg"
+  }
+}

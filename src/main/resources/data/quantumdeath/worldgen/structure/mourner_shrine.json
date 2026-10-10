@@ -1,0 +1,11 @@
+{
+  "type": "quantumdeath:hell_structure",
+  "kind": "mourner_shrine",
+  "placement": "floor",
+  "min_y": 33,
+  "max_y": 100,
+  "biomes": "#quantumdeath:in_shallow_hell",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "terrain_adaptation": "none"
+}

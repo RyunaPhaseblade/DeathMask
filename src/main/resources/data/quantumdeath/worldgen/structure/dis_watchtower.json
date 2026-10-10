@@ -1,0 +1,11 @@
+{
+  "type": "quantumdeath:hell_structure",
+  "kind": "dis_watchtower",
+  "placement": "surface",
+  "min_y": 52,
+  "max_y": 130,
+  "biomes": "#quantumdeath:in_dis",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "terrain_adaptation": "none"
+}

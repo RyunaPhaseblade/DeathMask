@@ -1,0 +1,11 @@
+{
+  "type": "quantumdeath:hell_structure",
+  "kind": "butchers_hall",
+  "placement": "floor",
+  "min_y": 26,
+  "max_y": 140,
+  "biomes": "#quantumdeath:in_gorge",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "terrain_adaptation": "none"
+}

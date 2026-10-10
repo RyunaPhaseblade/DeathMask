@@ -1,0 +1,106 @@
+{
+  "attributes": {
+    "minecraft:visual/fog_color": "#2c0f12",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "quantumdeath:blood_ember"
+          },
+          "probability": 0.006
+        },
+        {
+          "particle": {
+            "type": "minecraft:ash"
+          },
+          "probability": 0.006
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/ambient_sounds": {
+      "loop": "quantumdeath:ambient.dis.loop",
+      "additions": {
+        "sound": "quantumdeath:ambient.dis.additions",
+        "tick_chance": 0.006
+      },
+      "mood": {
+        "sound": "quantumdeath:vigil.breath",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "quantumdeath:music.dis",
+        "min_delay": 2400,
+        "max_delay": 9600,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "quantumdeath:iron_fury",
+              "weight": 40,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            },
+            {
+              "type": "quantumdeath:heretic",
+              "weight": 30,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            },
+            {
+              "type": "quantumdeath:fake_creeper",
+              "weight": 8,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    }
+  },
+  "carvers": [],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "quantumdeath:ore_dis_iron"
+    ],
+    [
+      "quantumdeath:chains_dis"
+    ],
+    [],
+    [
+      "quantumdeath:bleeding_trees"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 2.0
+}

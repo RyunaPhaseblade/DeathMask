@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumdeath:block/rotting_stalk"
+    },
+    "axis=z": {
+      "model": "quantumdeath:block/rotting_stalk",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumdeath:block/rotting_stalk",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

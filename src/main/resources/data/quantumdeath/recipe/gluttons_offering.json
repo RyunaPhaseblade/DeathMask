@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SBS",
+    "FRF",
+    "SBS"
+  ],
+  "key": {
+    "S": "quantumdeath:sinew",
+    "B": "quantumdeath:bile_sac",
+    "F": "quantumdeath:hunger_fang",
+    "R": "quantumdeath:rotten_fruit"
+  },
+  "result": {
+    "id": "quantumdeath:gluttons_offering",
+    "count": 1
+  }
+}

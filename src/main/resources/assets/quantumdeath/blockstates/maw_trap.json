@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "biting=false": {
+      "model": "quantumdeath:block/maw_trap"
+    },
+    "biting=true": {
+      "model": "quantumdeath:block/maw_trap_biting"
+    }
+  }
+}

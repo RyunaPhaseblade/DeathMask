@@ -1,0 +1,15 @@
+{
+  "type": "quantumdeath:spire",
+  "block": {
+    "id": "minecraft:bone_block",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 3,
+    "max_inclusive": 8
+  },
+  "radius": 1
+}

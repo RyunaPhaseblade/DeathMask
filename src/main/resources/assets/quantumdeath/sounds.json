@@ -1,0 +1,2199 @@
+{
+  "ambient.vestibule.loop": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/vestibule_loop"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.vestibule.loop"
+  },
+  "ambient.vestibule.additions": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/vestibule_add1"
+      },
+      {
+        "name": "quantumdeath:ambient/vestibule_add2"
+      },
+      {
+        "name": "quantumdeath:ambient/vestibule_add3"
+      },
+      {
+        "name": "quantumdeath:limbo/bell_far1"
+      },
+      {
+        "name": "quantumdeath:limbo/bell_far2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.vestibule.additions"
+  },
+  "ambient.gorge.loop": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/gorge_loop"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.gorge.loop"
+  },
+  "ambient.gorge.additions": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/gorge_add1"
+      },
+      {
+        "name": "quantumdeath:ambient/gorge_add2"
+      },
+      {
+        "name": "quantumdeath:ambient/gorge_add3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.gorge.additions"
+  },
+  "ambient.mire.loop": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/mire_loop"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.mire.loop"
+  },
+  "ambient.mire.additions": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/mire_add1"
+      },
+      {
+        "name": "quantumdeath:ambient/mire_add2"
+      },
+      {
+        "name": "quantumdeath:ambient/mire_add3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.mire.additions"
+  },
+  "ambient.dis.loop": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/dis_loop"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.dis.loop"
+  },
+  "ambient.dis.additions": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/dis_add1"
+      },
+      {
+        "name": "quantumdeath:ambient/dis_add2"
+      },
+      {
+        "name": "quantumdeath:ambient/dis_add3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.dis.additions"
+  },
+  "ambient.zenith.loop": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/zenith_loop"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.zenith.loop"
+  },
+  "ambient.zenith.additions": {
+    "sounds": [
+      {
+        "name": "quantumdeath:ambient/zenith_add1"
+      },
+      {
+        "name": "quantumdeath:ambient/zenith_add2"
+      },
+      {
+        "name": "quantumdeath:ambient/zenith_add3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ambient.zenith.additions"
+  },
+  "music.vestibule": {
+    "sounds": [
+      {
+        "name": "quantumdeath:music/vestibule",
+        "stream": true
+      }
+    ]
+  },
+  "music.gorge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:music/gorge",
+        "stream": true
+      }
+    ]
+  },
+  "music.mire": {
+    "sounds": [
+      {
+        "name": "quantumdeath:music/mire",
+        "stream": true
+      }
+    ]
+  },
+  "music.dis": {
+    "sounds": [
+      {
+        "name": "quantumdeath:music/dis",
+        "stream": true
+      }
+    ]
+  },
+  "music.zenith": {
+    "sounds": [
+      {
+        "name": "quantumdeath:music/zenith",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss": {
+    "sounds": [
+      {
+        "name": "quantumdeath:music/boss",
+        "stream": true
+      }
+    ]
+  },
+  "music.vigil": {
+    "sounds": [
+      {
+        "name": "quantumdeath:music/vigil",
+        "stream": true
+      }
+    ]
+  },
+  "vigil.presence": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/presence",
+        "attenuation_distance": 96
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.presence"
+  },
+  "vigil.toll": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/toll",
+        "attenuation_distance": 128
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.toll"
+  },
+  "vigil.whisper": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/whisper1"
+      },
+      {
+        "name": "quantumdeath:vigil/whisper2"
+      },
+      {
+        "name": "quantumdeath:vigil/whisper3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.whisper"
+  },
+  "vigil.step": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/step1",
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumdeath:vigil/step2",
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumdeath:vigil/step3",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.step"
+  },
+  "vigil.breath": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/breath1"
+      },
+      {
+        "name": "quantumdeath:vigil/breath2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.breath"
+  },
+  "vigil.vanish": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/vanish"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.vanish"
+  },
+  "vigil.pursuit": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/pursuit",
+        "attenuation_distance": 256
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.pursuit"
+  },
+  "vigil.touch": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/touch"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.touch"
+  },
+  "vigil.mask_break": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/mask_break",
+        "attenuation_distance": 96
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.mask_break"
+  },
+  "vigil.roar": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/roar",
+        "attenuation_distance": 96
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.roar"
+  },
+  "vigil.death": {
+    "sounds": [
+      {
+        "name": "quantumdeath:vigil/death",
+        "attenuation_distance": 128
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.vigil.death"
+  },
+  "hollow.ambient": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/hollow_ambient1"
+      },
+      {
+        "name": "quantumdeath:mob/hollow_ambient2"
+      },
+      {
+        "name": "quantumdeath:mob/hollow_ambient3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.hollow.ambient"
+  },
+  "hollow.hurt": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/hollow_hurt1"
+      },
+      {
+        "name": "quantumdeath:mob/hollow_hurt2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.hollow.hurt"
+  },
+  "hollow.death": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/hollow_death"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.hollow.death"
+  },
+  "cinder_knight.ambient": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/knight_ambient"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.cinder_knight.ambient"
+  },
+  "cinder_knight.swing": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/knight_swing1"
+      },
+      {
+        "name": "quantumdeath:mob/knight_swing2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.cinder_knight.swing"
+  },
+  "glutton.ambient": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/glutton_ambient1"
+      },
+      {
+        "name": "quantumdeath:mob/glutton_ambient2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.glutton.ambient"
+  },
+  "glutton.hurt": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/glutton_hurt"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.glutton.hurt"
+  },
+  "glutton.vomit": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/glutton_vomit"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.glutton.vomit"
+  },
+  "sullen.ambient": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/sullen_ambient1"
+      },
+      {
+        "name": "quantumdeath:mob/sullen_ambient2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.sullen.ambient"
+  },
+  "sullen.grab": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/sullen_grab"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.sullen.grab"
+  },
+  "wrathborn.roar": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/wrathborn_roar1"
+      },
+      {
+        "name": "quantumdeath:mob/wrathborn_roar2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.wrathborn.roar"
+  },
+  "wrathborn.hurt": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/wrathborn_hurt"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.wrathborn.hurt"
+  },
+  "heretic.chant": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/heretic_chant1"
+      },
+      {
+        "name": "quantumdeath:mob/heretic_chant2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.heretic.chant"
+  },
+  "heretic.hurt": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/heretic_hurt"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.heretic.hurt"
+  },
+  "fury.shriek": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/fury_shriek1"
+      },
+      {
+        "name": "quantumdeath:mob/fury_shriek2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.fury.shriek"
+  },
+  "penitent.crack": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/penitent_crack1"
+      },
+      {
+        "name": "quantumdeath:mob/penitent_crack2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.penitent.crack"
+  },
+  "echo.whisper": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/echo_whisper1"
+      },
+      {
+        "name": "quantumdeath:mob/echo_whisper2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.echo.whisper"
+  },
+  "monster.death": {
+    "sounds": [
+      {
+        "name": "quantumdeath:mob/monster_death"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.monster.death"
+  },
+  "hollow.breath": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/hollow_breath1"
+      },
+      {
+        "name": "quantumdeath:limbo/hollow_breath2"
+      },
+      {
+        "name": "quantumdeath:limbo/hollow_breath3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.hollow.breath"
+  },
+  "hollow.call": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/hollow_call1",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:limbo/hollow_call2",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.hollow.call"
+  },
+  "hollow.shamble": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/hollow_shamble1",
+        "volume": 0.8
+      },
+      {
+        "name": "quantumdeath:limbo/hollow_shamble2",
+        "volume": 0.8
+      },
+      {
+        "name": "quantumdeath:limbo/hollow_shamble3",
+        "volume": 0.8
+      },
+      {
+        "name": "quantumdeath:limbo/hollow_shamble4",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.hollow.shamble"
+  },
+  "runaway.pant": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/runaway_pant1"
+      },
+      {
+        "name": "quantumdeath:dead/runaway_pant2"
+      },
+      {
+        "name": "quantumdeath:dead/runaway_pant3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.runaway.pant"
+  },
+  "runaway.charge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/runaway_charge"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.runaway.charge"
+  },
+  "crier.inhale": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/crier_inhale1",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:dead/crier_inhale2",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.crier.inhale"
+  },
+  "crier.scream": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/crier_scream1",
+        "attenuation_distance": 64
+      },
+      {
+        "name": "quantumdeath:dead/crier_scream2",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.crier.scream"
+  },
+  "crawler.scrape": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/crawler_scrape1"
+      },
+      {
+        "name": "quantumdeath:limbo/crawler_scrape2"
+      },
+      {
+        "name": "quantumdeath:limbo/crawler_scrape3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.crawler.scrape"
+  },
+  "crawler.lunge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/crawler_lunge"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.crawler.lunge"
+  },
+  "sundered.split": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/sundered_split"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.sundered.split"
+  },
+  "sundered.ambient": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/sundered_ambient1"
+      },
+      {
+        "name": "quantumdeath:limbo/sundered_ambient2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.sundered.ambient"
+  },
+  "walking_ossuary.rattle": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/ossuary_rattle1"
+      },
+      {
+        "name": "quantumdeath:limbo/ossuary_rattle2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.walking_ossuary.rattle"
+  },
+  "walking_ossuary.slam": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/ossuary_slam"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.walking_ossuary.slam"
+  },
+  "mourning_hound.sniff": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/hound_sniff1"
+      },
+      {
+        "name": "quantumdeath:limbo/hound_sniff2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.mourning_hound.sniff"
+  },
+  "mourning_hound.chatter": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/hound_chatter"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.mourning_hound.chatter"
+  },
+  "wake_bearer.dirge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/bearer_dirge1",
+        "attenuation_distance": 40
+      },
+      {
+        "name": "quantumdeath:limbo/bearer_dirge2",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.wake_bearer.dirge"
+  },
+  "wake_bearer.gather": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/bearer_gather"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.wake_bearer.gather"
+  },
+  "wake_bearer.slam": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/bearer_slam"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.wake_bearer.slam"
+  },
+  "dead.groan": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/groan1"
+      },
+      {
+        "name": "quantumdeath:dead/groan2"
+      },
+      {
+        "name": "quantumdeath:dead/groan3"
+      },
+      {
+        "name": "quantumdeath:dead/groan4"
+      },
+      {
+        "name": "quantumdeath:dead/groan5"
+      },
+      {
+        "name": "quantumdeath:dead/groan6"
+      },
+      {
+        "name": "quantumdeath:dead/groan7"
+      },
+      {
+        "name": "quantumdeath:dead/groan8"
+      },
+      {
+        "name": "quantumdeath:dead/groan9"
+      },
+      {
+        "name": "quantumdeath:dead/groan10"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.dead.groan"
+  },
+  "dead.chase": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/chase1"
+      },
+      {
+        "name": "quantumdeath:dead/chase2"
+      },
+      {
+        "name": "quantumdeath:dead/chase3"
+      },
+      {
+        "name": "quantumdeath:dead/chase4"
+      },
+      {
+        "name": "quantumdeath:dead/chase5"
+      },
+      {
+        "name": "quantumdeath:dead/chase6"
+      },
+      {
+        "name": "quantumdeath:dead/chase7"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.dead.chase"
+  },
+  "dead.attack": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/attack1"
+      },
+      {
+        "name": "quantumdeath:dead/attack2"
+      },
+      {
+        "name": "quantumdeath:dead/attack3"
+      },
+      {
+        "name": "quantumdeath:dead/attack4"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.dead.attack"
+  },
+  "dead.hurt": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/hurt1"
+      },
+      {
+        "name": "quantumdeath:dead/hurt2"
+      },
+      {
+        "name": "quantumdeath:dead/hurt3"
+      },
+      {
+        "name": "quantumdeath:dead/hurt4"
+      },
+      {
+        "name": "quantumdeath:dead/hurt5"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.dead.hurt"
+  },
+  "dead.death": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/death1"
+      },
+      {
+        "name": "quantumdeath:dead/death2"
+      },
+      {
+        "name": "quantumdeath:dead/death3"
+      },
+      {
+        "name": "quantumdeath:dead/death4"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.dead.death"
+  },
+  "dead.horde": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/horde1",
+        "attenuation_distance": 56
+      },
+      {
+        "name": "quantumdeath:dead/horde2",
+        "attenuation_distance": 56
+      },
+      {
+        "name": "quantumdeath:dead/horde3",
+        "attenuation_distance": 56
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.dead.horde"
+  },
+  "dead.step": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/step1",
+        "volume": 0.6
+      },
+      {
+        "name": "quantumdeath:dead/step2",
+        "volume": 0.6
+      },
+      {
+        "name": "quantumdeath:dead/step3",
+        "volume": 0.6
+      },
+      {
+        "name": "quantumdeath:dead/step4",
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.dead.step"
+  },
+  "stalker.hiss": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/stalker_hiss1"
+      },
+      {
+        "name": "quantumdeath:dead/stalker_hiss2"
+      },
+      {
+        "name": "quantumdeath:dead/stalker_hiss3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.stalker.hiss"
+  },
+  "stalker.scrape": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/stalker_scrape1"
+      },
+      {
+        "name": "quantumdeath:dead/stalker_scrape2"
+      },
+      {
+        "name": "quantumdeath:dead/stalker_scrape3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.stalker.scrape"
+  },
+  "crier.throat": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/crier_throat1"
+      },
+      {
+        "name": "quantumdeath:dead/crier_throat2"
+      },
+      {
+        "name": "quantumdeath:dead/crier_throat3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.crier.throat"
+  },
+  "foreman.signal": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/foreman_signal1",
+        "attenuation_distance": 40
+      },
+      {
+        "name": "quantumdeath:dead/foreman_signal2",
+        "attenuation_distance": 40
+      },
+      {
+        "name": "quantumdeath:dead/foreman_signal3",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.foreman.signal"
+  },
+  "foreman.ambient": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/foreman_ambient1"
+      },
+      {
+        "name": "quantumdeath:dead/foreman_ambient2"
+      },
+      {
+        "name": "quantumdeath:dead/foreman_ambient3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.foreman.ambient"
+  },
+  "lanky.groan": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/lanky_groan1"
+      },
+      {
+        "name": "quantumdeath:dead/lanky_groan2"
+      },
+      {
+        "name": "quantumdeath:dead/lanky_groan3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.lanky.groan"
+  },
+  "lanky.swing": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/lanky_swing1"
+      },
+      {
+        "name": "quantumdeath:dead/lanky_swing2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.lanky.swing"
+  },
+  "bloater.gurgle": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/bloater_gurgle1"
+      },
+      {
+        "name": "quantumdeath:dead/bloater_gurgle2"
+      },
+      {
+        "name": "quantumdeath:dead/bloater_gurgle3"
+      },
+      {
+        "name": "quantumdeath:dead/bloater_gurgle4"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bloater.gurgle"
+  },
+  "bloater.swell": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/bloater_swell1",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:dead/bloater_swell2",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:dead/bloater_swell3",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bloater.swell"
+  },
+  "bloater.burst": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/bloater_burst1",
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumdeath:dead/bloater_burst2",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bloater.burst"
+  },
+  "breaker.grunt": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/breaker_grunt1",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:dead/breaker_grunt2",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:dead/breaker_grunt3",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.breaker.grunt"
+  },
+  "breaker.roar": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/breaker_roar1",
+        "attenuation_distance": 40
+      },
+      {
+        "name": "quantumdeath:dead/breaker_roar2",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.breaker.roar"
+  },
+  "breaker.slam": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/breaker_slam1",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:dead/breaker_slam2",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.breaker.slam"
+  },
+  "runt.shriek": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/runt_shriek1"
+      },
+      {
+        "name": "quantumdeath:dead/runt_shriek2"
+      },
+      {
+        "name": "quantumdeath:dead/runt_shriek3"
+      },
+      {
+        "name": "quantumdeath:dead/runt_shriek4"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.runt.shriek"
+  },
+  "runt.chirp": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/runt_chirp1"
+      },
+      {
+        "name": "quantumdeath:dead/runt_chirp2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.runt.chirp"
+  },
+  "parasite.chitter": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/parasite_chitter1"
+      },
+      {
+        "name": "quantumdeath:dead/parasite_chitter2"
+      },
+      {
+        "name": "quantumdeath:dead/parasite_chitter3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.parasite.chitter"
+  },
+  "parasite.leap": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/parasite_leap1"
+      },
+      {
+        "name": "quantumdeath:dead/parasite_leap2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.parasite.leap"
+  },
+  "parasite.latch": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/parasite_latch1"
+      },
+      {
+        "name": "quantumdeath:dead/parasite_latch2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.parasite.latch"
+  },
+  "parasite.possess": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/parasite_possess1",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.parasite.possess"
+  },
+  "ticker.pulse": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/ticker_pulse1"
+      },
+      {
+        "name": "quantumdeath:dead/ticker_pulse2"
+      },
+      {
+        "name": "quantumdeath:dead/ticker_pulse3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ticker.pulse"
+  },
+  "ticker.hiss": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/ticker_hiss1"
+      },
+      {
+        "name": "quantumdeath:dead/ticker_hiss2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ticker.hiss"
+  },
+  "ticker.attach": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/ticker_attach1"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ticker.attach"
+  },
+  "ticker.breach": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/ticker_breach1",
+        "attenuation_distance": 48
+      },
+      {
+        "name": "quantumdeath:dead/ticker_breach2",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ticker.breach"
+  },
+  "ticker.burst": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/ticker_burst1",
+        "attenuation_distance": 40
+      },
+      {
+        "name": "quantumdeath:dead/ticker_burst2",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ticker.burst"
+  },
+  "strangler.gurgle": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/strangler_gurgle1",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:dead/strangler_gurgle2",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:dead/strangler_gurgle3",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.strangler.gurgle"
+  },
+  "strangler.lash": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/strangler_lash1",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:dead/strangler_lash2",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.strangler.lash"
+  },
+  "strangler.reel": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/strangler_reel1"
+      },
+      {
+        "name": "quantumdeath:dead/strangler_reel2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.strangler.reel"
+  },
+  "strangler.sever": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/strangler_sever1",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.strangler.sever"
+  },
+  "bile_spitter.retch": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/spitter_retch1",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:dead/spitter_retch2",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bile_spitter.retch"
+  },
+  "bile_spitter.spit": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/spitter_spit1"
+      },
+      {
+        "name": "quantumdeath:dead/spitter_spit2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bile_spitter.spit"
+  },
+  "bile_spitter.splat": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/spitter_splat1"
+      },
+      {
+        "name": "quantumdeath:dead/spitter_splat2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bile_spitter.splat"
+  },
+  "rib_thrower.crack": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/ribs_crack1",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:dead/ribs_crack2",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.rib_thrower.crack"
+  },
+  "rib_thrower.throw": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/ribs_throw1"
+      },
+      {
+        "name": "quantumdeath:dead/ribs_throw2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.rib_thrower.throw"
+  },
+  "rib_thrower.impact": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/ribs_impact1"
+      },
+      {
+        "name": "quantumdeath:dead/ribs_impact2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.rib_thrower.impact"
+  },
+  "mound.gather": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/mound_gather1",
+        "attenuation_distance": 40
+      },
+      {
+        "name": "quantumdeath:dead/mound_gather2",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.mound.gather"
+  },
+  "mound.climb": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/mound_climb1"
+      },
+      {
+        "name": "quantumdeath:dead/mound_climb2"
+      },
+      {
+        "name": "quantumdeath:dead/mound_climb3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.mound.climb"
+  },
+  "dead.claw": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/dead_claw1"
+      },
+      {
+        "name": "quantumdeath:dead/dead_claw2"
+      },
+      {
+        "name": "quantumdeath:dead/dead_claw3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.dead.claw"
+  },
+  "runaway.scream": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/runaway_scream1",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:dead/runaway_scream2",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.runaway.scream"
+  },
+  "crawler.hiss": {
+    "sounds": [
+      {
+        "name": "quantumdeath:dead/crawler_hiss1"
+      },
+      {
+        "name": "quantumdeath:dead/crawler_hiss2"
+      },
+      {
+        "name": "quantumdeath:dead/crawler_hiss3"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.crawler.hiss"
+  },
+  "boss.rise": {
+    "sounds": [
+      {
+        "name": "quantumdeath:boss/rise",
+        "attenuation_distance": 96
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.boss.rise"
+  },
+  "boss.roar": {
+    "sounds": [
+      {
+        "name": "quantumdeath:boss/roar",
+        "attenuation_distance": 96
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.boss.roar"
+  },
+  "boss.slam": {
+    "sounds": [
+      {
+        "name": "quantumdeath:boss/slam",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.boss.slam"
+  },
+  "boss.defeated": {
+    "sounds": [
+      {
+        "name": "quantumdeath:boss/defeated",
+        "attenuation_distance": 128
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.boss.defeated"
+  },
+  "toll_keeper.lantern": {
+    "sounds": [
+      {
+        "name": "quantumdeath:boss/toll_keeper_lantern",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.toll_keeper.lantern"
+  },
+  "matriarch.inhale": {
+    "sounds": [
+      {
+        "name": "quantumdeath:boss/matriarch_inhale",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.matriarch.inhale"
+  },
+  "styxmaw.emerge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:boss/styxmaw_emerge",
+        "attenuation_distance": 96
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.styxmaw.emerge"
+  },
+  "heresiarch.chant": {
+    "sounds": [
+      {
+        "name": "quantumdeath:boss/heresiarch_chant",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.heresiarch.chant"
+  },
+  "gate.hum": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/gate_hum"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.gate.hum"
+  },
+  "gate.denied": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/gate_denied"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.gate.denied"
+  },
+  "shrine.forms": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/shrine_forms"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.shrine.forms"
+  },
+  "maw.bite": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/maw_bite"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.maw.bite"
+  },
+  "tree.wail": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/tree_wail"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.tree.wail"
+  },
+  "static.burst": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/static_burst1"
+      },
+      {
+        "name": "quantumdeath:block/static_burst2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.static.burst"
+  },
+  "choir.bell": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/choir_bell",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.choir.bell"
+  },
+  "seal.break": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/seal_break",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.seal.break"
+  },
+  "altar.summon": {
+    "sounds": [
+      {
+        "name": "quantumdeath:block/altar_summon",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.altar.summon"
+  },
+  "item.mourning_bell": {
+    "sounds": [
+      {
+        "name": "quantumdeath:item/mourning_bell",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.item.mourning_bell"
+  },
+  "item.mirror_gaze": {
+    "sounds": [
+      {
+        "name": "quantumdeath:item/mirror_gaze"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.item.mirror_gaze"
+  },
+  "item.hook_fire": {
+    "sounds": [
+      {
+        "name": "quantumdeath:item/hook_fire"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.item.hook_fire"
+  },
+  "limbo.bell_far": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/bell_far1",
+        "attenuation_distance": 96
+      },
+      {
+        "name": "quantumdeath:limbo/bell_far2",
+        "attenuation_distance": 96
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.limbo.bell_far"
+  },
+  "lantern.consecrate": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/lantern_consecrate"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.lantern.consecrate"
+  },
+  "lantern.gutter": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/lantern_gutter"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.lantern.gutter"
+  },
+  "lantern.extinguish": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/lantern_extinguish"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.lantern.extinguish"
+  },
+  "siege.strain": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/siege_strain1"
+      },
+      {
+        "name": "quantumdeath:limbo/siege_strain2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.siege.strain"
+  },
+  "grave.stir": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/grave_stir1"
+      },
+      {
+        "name": "quantumdeath:limbo/grave_stir2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.grave.stir"
+  },
+  "lure.breath": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/lure_breath"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.lure.breath"
+  },
+  "plague.toll": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/plague_toll",
+        "attenuation_distance": 128
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.plague.toll"
+  },
+  "plague.emerge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/plague_emerge",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.plague.emerge"
+  },
+  "plague.purge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/plague_purge"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.plague.purge"
+  },
+  "plague.purged": {
+    "sounds": [
+      {
+        "name": "quantumdeath:limbo/plague_purged",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.plague.purged"
+  },
+  "jjk.level_up": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/level_up"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.level_up"
+  },
+  "jjk.unlock": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/unlock"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.unlock"
+  },
+  "jjk.blood_shot": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/blood_shot1"
+      },
+      {
+        "name": "quantumdeath:jjk/blood_shot2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.blood_shot"
+  },
+  "jjk.blood_converge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/blood_converge"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.blood_converge"
+  },
+  "jjk.piercing_blood": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/piercing_blood",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.piercing_blood"
+  },
+  "jjk.supernova": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/supernova1"
+      },
+      {
+        "name": "quantumdeath:jjk/supernova2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.supernova"
+  },
+  "jjk.ice_form": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/ice_form1"
+      },
+      {
+        "name": "quantumdeath:jjk/ice_form2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.ice_form"
+  },
+  "jjk.frost_calm": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/frost_calm",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.frost_calm"
+  },
+  "jjk.ember_buzz": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/ember_buzz1",
+        "volume": 0.8
+      },
+      {
+        "name": "quantumdeath:jjk/ember_buzz2",
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.ember_buzz"
+  },
+  "jjk.volcano_rumble": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/volcano_rumble",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.volcano_rumble"
+  },
+  "jjk.eruption": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/eruption",
+        "attenuation_distance": 48
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.eruption"
+  },
+  "jjk.meteor_fall": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/meteor_fall",
+        "attenuation_distance": 128
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.meteor_fall"
+  },
+  "jjk.meteor_impact": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/meteor_impact",
+        "attenuation_distance": 160
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.meteor_impact"
+  },
+  "jjk.projection_frame": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/projection_frame1"
+      },
+      {
+        "name": "quantumdeath:jjk/projection_frame2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.projection_frame"
+  },
+  "jjk.frame_freeze": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/frame_freeze"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.frame_freeze"
+  },
+  "jjk.clap": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/clap1",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:jjk/clap2",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.clap"
+  },
+  "jjk.swap": {
+    "sounds": [
+      {
+        "name": "quantumdeath:jjk/swap1"
+      },
+      {
+        "name": "quantumdeath:jjk/swap2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.jjk.swap"
+  },
+  "yokai.awakening": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/awakening",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.yokai.awakening"
+  },
+  "yokai.skill": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/skill"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.yokai.skill"
+  },
+  "yokai.retreat": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/retreat"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.yokai.retreat"
+  },
+  "yokai.pact": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/pact",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.yokai.pact"
+  },
+  "yokai.order": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/order"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.yokai.order"
+  },
+  "yokai.resonance_warning": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/resonance"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.yokai.resonance_warning"
+  },
+  "yokai.hurt": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/hurt1"
+      },
+      {
+        "name": "quantumdeath:yokai/hurt2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.yokai.hurt"
+  },
+  "yokai.death": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/death"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.yokai.death"
+  },
+  "amulet.store": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/amulet_store"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.amulet.store"
+  },
+  "amulet.summon": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/amulet_summon"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.amulet.summon"
+  },
+  "amulet.lost": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/amulet_lost"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.amulet.lost"
+  },
+  "false_creeper.hiss": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/fc_hiss",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.false_creeper.hiss"
+  },
+  "false_creeper.burst": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/fc_burst",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.false_creeper.burst"
+  },
+  "bifauce.breath": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/bifauce_breath1",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:yokai/bifauce_breath2",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bifauce.breath"
+  },
+  "bifauce.open": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/bifauce_open",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bifauce.open"
+  },
+  "bifauce.charge": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/bifauce_charge",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bifauce.charge"
+  },
+  "damper.creak": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/damper_creak",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.damper.creak"
+  },
+  "damper.strike": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/damper_strike"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.damper.strike"
+  },
+  "swarm_eye.gaze": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/eye_gaze",
+        "attenuation_distance": 20
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.swarm_eye.gaze"
+  },
+  "swarm_eye.shriek": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/eye_shriek",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.swarm_eye.shriek"
+  },
+  "swarm_eye.shot": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/eye_shot1"
+      },
+      {
+        "name": "quantumdeath:yokai/eye_shot2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.swarm_eye.shot"
+  },
+  "kappa.bubbles": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/kappa_bubbles",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.kappa.bubbles"
+  },
+  "kappa.bite": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/kappa_bite1"
+      },
+      {
+        "name": "quantumdeath:yokai/kappa_bite2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.kappa.bite"
+  },
+  "kappa.ambient": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/kappa_ambient1"
+      },
+      {
+        "name": "quantumdeath:yokai/kappa_ambient2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.kappa.ambient"
+  },
+  "kappa.splash": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/kappa_splash"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.kappa.splash"
+  },
+  "oni.step": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/oni_step1",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:yokai/oni_step2",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:yokai/oni_step3",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.oni.step"
+  },
+  "oni.windup": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/oni_windup",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.oni.windup"
+  },
+  "oni.slam": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/oni_slam",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.oni.slam"
+  },
+  "oni.ambient": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/oni_ambient1",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:yokai/oni_ambient2",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.oni.ambient"
+  },
+  "chest_tsukumogami.knock": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/chest_knock1"
+      },
+      {
+        "name": "quantumdeath:yokai/chest_knock2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.chest_tsukumogami.knock"
+  },
+  "chest_tsukumogami.lid": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/chest_lid"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.chest_tsukumogami.lid"
+  },
+  "chest_tsukumogami.bite": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/chest_bite"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.chest_tsukumogami.bite"
+  },
+  "tanuki.drum": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/tanuki_drum1",
+        "attenuation_distance": 32
+      },
+      {
+        "name": "quantumdeath:yokai/tanuki_drum2",
+        "attenuation_distance": 32
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.tanuki.drum"
+  },
+  "tanuki.puff": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/tanuki_puff"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.tanuki.puff"
+  },
+  "tanuki.chitter": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/tanuki_chitter1"
+      },
+      {
+        "name": "quantumdeath:yokai/tanuki_chitter2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.tanuki.chitter"
+  },
+  "tengu.wings": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/tengu_wings",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.tengu.wings"
+  },
+  "tengu.windup": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/tengu_windup",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.tengu.windup"
+  },
+  "tengu.gust": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/tengu_gust",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.tengu.gust"
+  },
+  "kodama.rattle": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/kodama_rattle1",
+        "attenuation_distance": 24
+      },
+      {
+        "name": "quantumdeath:yokai/kodama_rattle2",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.kodama.rattle"
+  },
+  "nurikabe.scrape": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/nurikabe_scrape"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.nurikabe.scrape"
+  },
+  "nurikabe.shift": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/nurikabe_shift"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.nurikabe.shift"
+  },
+  "ittan_momen.rustle": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/ittan_rustle",
+        "attenuation_distance": 24
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ittan_momen.rustle"
+  },
+  "ittan_momen.wrap": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/ittan_wrap"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.ittan_momen.wrap"
+  },
+  "bell_tsukumogami.tinkle": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/bell_tinkle1"
+      },
+      {
+        "name": "quantumdeath:yokai/bell_tinkle2"
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bell_tsukumogami.tinkle"
+  },
+  "bell_tsukumogami.warn": {
+    "sounds": [
+      {
+        "name": "quantumdeath:yokai/bell_warn",
+        "attenuation_distance": 40
+      }
+    ],
+    "subtitle": "subtitles.quantumdeath.bell_tsukumogami.warn"
+  }
+}

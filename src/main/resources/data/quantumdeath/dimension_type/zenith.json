@@ -1,0 +1,52 @@
+{
+  "ambient_light": 0.05,
+  "attributes": {
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "destroy_on_use": true
+    },
+    "minecraft:gameplay/straw_bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "destroy_on_use": true
+    },
+    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/snow_golem_melts": true,
+    "minecraft:gameplay/sky_light_level": 9.0,
+    "minecraft:visual/ambient_light_color": "#202020",
+    "minecraft:visual/fog_start_distance": 0.0,
+    "minecraft:visual/fog_end_distance": 110.0,
+    "minecraft:visual/sky_light_color": "#e0d8d0",
+    "minecraft:visual/sky_light_factor": 0.6,
+    "minecraft:gameplay/water_evaporates": false,
+    "minecraft:gameplay/monsters_burn": false,
+    "minecraft:visual/sky_color": "#3a0303",
+    "minecraft:visual/sun_angle": 180.0,
+    "minecraft:visual/moon_angle": 0.0,
+    "minecraft:visual/moon_phase": "full_moon",
+    "minecraft:visual/star_brightness": 1.0,
+    "minecraft:visual/star_angle": 37.0,
+    "minecraft:visual/sunrise_sunset_color": "#00000000",
+    "minecraft:visual/cloud_color": "#00000000",
+    "minecraft:visual/block_light_tint": "#f0f0ff",
+    "minecraft:visual/sky_fog_end_distance": 160.0
+  },
+  "cardinal_light": "default",
+  "coordinate_scale": 8.0,
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "has_fixed_time": true,
+  "has_skylight": true,
+  "height": 256,
+  "infiniburn": "#minecraft:infiniburn_nether",
+  "logical_height": 256,
+  "min_y": 0,
+  "monster_spawn_block_light_limit": 15,
+  "monster_spawn_light_level": 15,
+  "skybox": "overworld",
+  "timelines": "#minecraft:in_end",
+  "default_clock": "minecraft:the_end"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumdeath:block/petrified_soul"
+    },
+    "axis=z": {
+      "model": "quantumdeath:block/petrified_soul",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumdeath:block/petrified_soul",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

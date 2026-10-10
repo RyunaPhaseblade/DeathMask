@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "quantumdeath:block/bleeding_log"
+    },
+    "axis=z": {
+      "model": "quantumdeath:block/bleeding_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "quantumdeath:block/bleeding_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

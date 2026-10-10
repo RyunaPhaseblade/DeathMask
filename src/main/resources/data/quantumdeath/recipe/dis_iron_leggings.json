@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MTM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": "quantumdeath:dis_iron_ingot",
+    "T": "quantumdeath:heretic_ember"
+  },
+  "result": {
+    "id": "quantumdeath:dis_iron_leggings",
+    "count": 1
+  }
+}

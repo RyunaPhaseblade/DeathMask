@@ -1,0 +1,48 @@
+{
+  "type": "quantumdeath:dis",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "quantumdeath:dis",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "quantumdeath:iron_necropolis",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumdeath:forest_of_suicides",
+          "parameters": {
+            "temperature": -0.4,
+            "humidity": 0.3,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumdeath:burning_fields",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.3,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

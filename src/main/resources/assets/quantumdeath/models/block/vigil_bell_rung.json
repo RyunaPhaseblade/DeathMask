@@ -1,0 +1,7 @@
+{
+  "parent": "quantumdeath:block/vigil_bell",
+  "textures": {
+    "bell": "quantumdeath:block/vigil_bell_rung",
+    "particle": "quantumdeath:block/vigil_bell_rung"
+  }
+}

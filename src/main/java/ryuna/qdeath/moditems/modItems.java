@@ -162,10 +162,6 @@ public class modItems {
 				output.accept(modItems.FRAGMENT_OF_THE_VOID);
 				output.accept(modItems.REINFORCED_SHULKER_SHELL);
 				output.accept(modItems.WISDOM_OF_THE_VOID);
-				output.accept(modItems.SWARM_EYE_SPAWN_EGG);
-				output.accept(modItems.DAMPER_SPAWN_EGG);
-				output.accept(modItems.BIFAUCE_SPAWN_EGG);
-				output.accept(modItems.FAKE_CREEPER_SPAWN_EGG);
 
 			})	
 			.build();

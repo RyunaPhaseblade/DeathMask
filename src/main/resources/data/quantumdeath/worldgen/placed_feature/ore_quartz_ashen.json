@@ -1,0 +1,27 @@
+{
+  "feature": "quantumdeath:ore_quartz_ashen",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 12
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 10
+        },
+        "max_inclusive": {
+          "absolute": 236
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "OSO",
+    "SCS",
+    "OSO"
+  ],
+  "key": {
+    "O": "quantumdeath:ashen_obol",
+    "S": "quantumdeath:soul_ash",
+    "C": "minecraft:compass"
+  },
+  "result": {
+    "id": "quantumdeath:pilgrims_compass",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": "quantumdeath:gristle"
+  },
+  "result": {
+    "id": "quantumdeath:gristle_bricks",
+    "count": 4
+  }
+}

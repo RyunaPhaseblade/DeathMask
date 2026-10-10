@@ -1,0 +1,9 @@
+{
+  "type": "quantumdeath:hanging",
+  "block": "minecraft:weeping_vines_plant",
+  "length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 3,
+    "max_inclusive": 12
+  }
+}

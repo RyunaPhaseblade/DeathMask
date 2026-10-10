@@ -1,0 +1,265 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "quantumdeath:block/vigil_bell",
+    "bell": "quantumdeath:block/vigil_bell",
+    "base": "quantumdeath:block/zenith_bricks"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        3,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            15,
+            10,
+            16
+          ],
+          "texture": "#bell"
+        },
+        "south": {
+          "uv": [
+            0,
+            15,
+            10,
+            16
+          ],
+          "texture": "#bell"
+        },
+        "east": {
+          "uv": [
+            0,
+            15,
+            10,
+            16
+          ],
+          "texture": "#bell"
+        },
+        "west": {
+          "uv": [
+            0,
+            15,
+            10,
+            16
+          ],
+          "texture": "#bell"
+        },
+        "up": {
+          "uv": [
+            0,
+            15,
+            10,
+            16
+          ],
+          "texture": "#bell"
+        },
+        "down": {
+          "uv": [
+            0,
+            15,
+            10,
+            16
+          ],
+          "texture": "#bell"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        3,
+        4
+      ],
+      "to": [
+        12,
+        12,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            2,
+            8,
+            11
+          ],
+          "texture": "#bell"
+        },
+        "south": {
+          "uv": [
+            0,
+            2,
+            8,
+            11
+          ],
+          "texture": "#bell"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            8,
+            11
+          ],
+          "texture": "#bell"
+        },
+        "west": {
+          "uv": [
+            0,
+            2,
+            8,
+            11
+          ],
+          "texture": "#bell"
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            16,
+            8
+          ],
+          "texture": "#bell"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        12,
+        7
+      ],
+      "to": [
+        9,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            9,
+            11,
+            11
+          ],
+          "texture": "#bell"
+        },
+        "south": {
+          "uv": [
+            9,
+            9,
+            11,
+            11
+          ],
+          "texture": "#bell"
+        },
+        "east": {
+          "uv": [
+            9,
+            9,
+            11,
+            11
+          ],
+          "texture": "#bell"
+        },
+        "west": {
+          "uv": [
+            9,
+            9,
+            11,
+            11
+          ],
+          "texture": "#bell"
+        },
+        "up": {
+          "uv": [
+            9,
+            9,
+            11,
+            11
+          ],
+          "texture": "#bell"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            12,
+            12,
+            14
+          ],
+          "texture": "#base"
+        },
+        "south": {
+          "uv": [
+            0,
+            12,
+            12,
+            14
+          ],
+          "texture": "#base"
+        },
+        "east": {
+          "uv": [
+            0,
+            12,
+            12,
+            14
+          ],
+          "texture": "#base"
+        },
+        "west": {
+          "uv": [
+            0,
+            12,
+            12,
+            14
+          ],
+          "texture": "#base"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": "#base"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": "#base",
+          "cullface": "down"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PMP",
+    "MGM",
+    "PMP"
+  ],
+  "key": {
+    "P": "quantumdeath:stygian_pearl",
+    "M": "quantumdeath:mask_fragment",
+    "G": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "quantumdeath:mirror_of_lethe",
+    "count": 1
+  }
+}

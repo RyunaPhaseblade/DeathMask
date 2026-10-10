@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SB",
+    "BS"
+  ],
+  "key": {
+    "S": "minecraft:polished_blackstone",
+    "B": "minecraft:nether_brick"
+  },
+  "result": {
+    "id": "quantumdeath:dis_bricks",
+    "count": 4
+  }
+}

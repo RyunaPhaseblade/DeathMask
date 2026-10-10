@@ -1,0 +1,10 @@
+{
+  "type": "quantumdeath:spire",
+  "block": "quantumdeath:red_static",
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 4,
+    "max_inclusive": 16
+  },
+  "radius": 1
+}

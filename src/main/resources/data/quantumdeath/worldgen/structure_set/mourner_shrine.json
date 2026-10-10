@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 66603,
+    "separation": 5,
+    "spacing": 11
+  },
+  "structures": [
+    {
+      "structure": "quantumdeath:mourner_shrine",
+      "weight": 1
+    }
+  ]
+}

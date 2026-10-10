@@ -1,0 +1,14 @@
+{
+  "type": "quantumdeath:hanging",
+  "block": {
+    "id": "minecraft:iron_chain",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 4,
+    "max_inclusive": 16
+  }
+}

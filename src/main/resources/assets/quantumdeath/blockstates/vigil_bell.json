@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "rung=false": {
+      "model": "quantumdeath:block/vigil_bell"
+    },
+    "rung=true": {
+      "model": "quantumdeath:block/vigil_bell_rung"
+    }
+  }
+}

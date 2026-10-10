@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NSN",
+    "SCS",
+    "NSN"
+  ],
+  "key": {
+    "N": "minecraft:iron_nugget",
+    "S": "quantumdeath:soul_ash",
+    "C": "minecraft:candle"
+  },
+  "result": {
+    "id": "quantumdeath:votive_lantern",
+    "count": 2
+  }
+}

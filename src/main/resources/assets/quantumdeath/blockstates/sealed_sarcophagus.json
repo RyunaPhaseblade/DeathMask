@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "quantumdeath:block/sealed_sarcophagus",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "quantumdeath:block/sealed_sarcophagus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "quantumdeath:block/sealed_sarcophagus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "quantumdeath:block/sealed_sarcophagus",
+      "y": 270
+    }
+  }
+}

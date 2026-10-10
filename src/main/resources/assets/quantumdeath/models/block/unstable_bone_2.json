@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "quantumdeath:block/unstable_bone_top_2",
+    "side": "quantumdeath:block/unstable_bone_2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ASA",
+    "STS",
+    "ASA"
+  ],
+  "key": {
+    "A": "quantumdeath:soul_ash",
+    "S": "minecraft:soul_sand",
+    "T": "minecraft:ghast_tear"
+  },
+  "result": {
+    "id": "quantumdeath:soul_vessel",
+    "count": 1
+  }
+}

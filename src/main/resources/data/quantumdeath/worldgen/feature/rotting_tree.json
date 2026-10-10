@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:huge_fungus",
+  "stem_state": {
+    "id": "quantumdeath:rotting_stalk",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "hat_state": "quantumdeath:sinew_cap",
+  "decor_state": "minecraft:shroomlight",
+  "valid_base_block": "quantumdeath:flesh",
+  "replaceable_blocks": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:weeping_vines_plant",
+      "quantumdeath:fang_spike"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "quantumdeath-gametest",
+	"version": "1.0.0",
+	"name": "Death Mask: Descent - Client Gametests",
+	"description": "Automated tour of every Hell layer, structure, creature and boss, the Limbo's systems, plus portal, gate, death, VIGIL and multiplayer checks, and the cursed-technique classes.",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"ryuna.qdeath.test.ItemVisualTest",
+			"ryuna.qdeath.test.LimboRefinementTest",
+			"ryuna.qdeath.test.LimboTest",
+			"ryuna.qdeath.test.LimboExpansionTest",
+			"ryuna.qdeath.test.HellVisualTour",
+			"ryuna.qdeath.test.HellGameplayTest",
+			"ryuna.qdeath.test.JjkTest",
+			"ryuna.qdeath.test.YokaiTest",
+			"ryuna.qdeath.test.ShowcaseCapture"
+		]
+	},
+	"depends": {
+		"quantumdeath": "*",
+		"fabric-client-gametest-api-v1": "*"
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 66610,
+    "separation": 10,
+    "spacing": 24
+  },
+  "structures": [
+    {
+      "structure": "quantumdeath:last_vigil",
+      "weight": 1
+    }
+  ]
+}

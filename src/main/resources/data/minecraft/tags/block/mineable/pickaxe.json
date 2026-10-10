@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "quantumdeath:ashen_stone",
+    "quantumdeath:ashen_bricks",
+    "quantumdeath:chiseled_ashen_bricks",
+    "quantumdeath:ember_ore",
+    "quantumdeath:gristle",
+    "quantumdeath:gristle_bricks",
+    "quantumdeath:stygian_stone",
+    "quantumdeath:stygian_bricks",
+    "quantumdeath:petrified_soul",
+    "quantumdeath:dis_iron_ore",
+    "quantumdeath:dis_iron_block",
+    "quantumdeath:dis_bricks",
+    "quantumdeath:cracked_dis_bricks",
+    "quantumdeath:molten_dis_iron",
+    "quantumdeath:burning_tomb",
+    "quantumdeath:hollow_wall",
+    "quantumdeath:zenith_stone",
+    "quantumdeath:zenith_bricks",
+    "quantumdeath:pale_ice",
+    "quantumdeath:red_static",
+    "quantumdeath:void_glass",
+    "quantumdeath:false_block",
+    "quantumdeath:frozen_tear_ore",
+    "quantumdeath:votive_lantern",
+    "quantumdeath:crumbling_bone",
+    "quantumdeath:fang_spike",
+    "quantumdeath:pilgrim_remains",
+    "quantumdeath:unstable_bone"
+  ]
+}

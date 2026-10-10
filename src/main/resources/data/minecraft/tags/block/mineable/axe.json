@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "quantumdeath:funeral_barricade",
+    "quantumdeath:charred_log",
+    "quantumdeath:charred_planks",
+    "quantumdeath:rotting_stalk",
+    "quantumdeath:drowned_log",
+    "quantumdeath:bleeding_log",
+    "quantumdeath:sinew_cap"
+  ]
+}

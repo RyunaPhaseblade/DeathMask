@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "quantumdeath:block/burning_tomb",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "quantumdeath:block/burning_tomb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "quantumdeath:block/burning_tomb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "quantumdeath:block/burning_tomb",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "attributes": {
+    "minecraft:visual/fog_color": "#4f4741",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:white_ash"
+          },
+          "probability": 0.12
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/ambient_sounds": {
+      "loop": "quantumdeath:ambient.vestibule.loop",
+      "additions": {
+        "sound": "quantumdeath:ambient.vestibule.additions",
+        "tick_chance": 0.006
+      },
+      "mood": {
+        "sound": "quantumdeath:vigil.breath",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "quantumdeath:music.vestibule",
+        "min_delay": 2400,
+        "max_delay": 9600,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "quantumdeath:hollow",
+              "weight": 70,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 3,
+                "max_inclusive": 6
+              }
+            },
+            {
+              "type": "quantumdeath:lanky",
+              "weight": 10,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:crawler",
+              "weight": 6,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            },
+            {
+              "type": "quantumdeath:bloater",
+              "weight": 6,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:breaker",
+              "weight": 2,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:walking_ossuary",
+              "weight": 2,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:foreman",
+              "weight": 1,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:cinder_knight",
+              "weight": 3,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "minecraft:magma_cube",
+              "weight": 15,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            },
+            {
+              "type": "quantumdeath:breach_ticker",
+              "weight": 4,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:rib_thrower",
+              "weight": 4,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:bile_spitter",
+              "weight": 2,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:strangler",
+              "weight": 2,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            },
+            {
+              "type": "quantumdeath:mourning_parasite",
+              "weight": 1,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 1
+              }
+            }
+          ],
+          "creature": [
+            {
+              "type": "minecraft:strider",
+              "weight": 60,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    }
+  },
+  "carvers": [],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:small_basalt_columns"
+    ],
+    [],
+    [
+      "minecraft:ore_magma",
+      "quantumdeath:ore_quartz_ashen",
+      "quantumdeath:ore_gold_ashen",
+      "quantumdeath:ore_debris_ashen",
+      "quantumdeath:ore_ember"
+    ],
+    [
+      "minecraft:basalt_blobs",
+      "minecraft:blackstone_blobs",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone"
+    ],
+    [
+      "minecraft:spring_delta"
+    ],
+    [
+      "quantumdeath:limbo_beached_boats",
+      "quantumdeath:limbo_pier_posts",
+      "quantumdeath:limbo_ash_columns",
+      "quantumdeath:limbo_rubble",
+      "quantumdeath:limbo_ash_stalactites"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 2.0
+}

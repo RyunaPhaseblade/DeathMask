@@ -1,0 +1,11 @@
+{
+  "type": "quantumdeath:hell_structure",
+  "kind": "ossuary",
+  "placement": "surface",
+  "min_y": 62,
+  "max_y": 120,
+  "biomes": "#quantumdeath:in_dis",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "terrain_adaptation": "none"
+}

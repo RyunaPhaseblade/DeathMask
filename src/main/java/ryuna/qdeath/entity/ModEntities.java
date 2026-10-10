@@ -1,7 +1,5 @@
 package ryuna.qdeath.entity;
 
-import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
-import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -9,8 +7,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.level.biome.MobSpawnSettings;
 import ryuna.qdeath.Quantumdeath;
 
 public final class ModEntities {
@@ -21,7 +17,7 @@ public final class ModEntities {
         return Registry.register(BuiltInRegistries.ENTITY_TYPE, key, builder.build(key));
     }
 
-    public static final EntityType<SwarmEyeEntity> SWARM_EYE = register("swarm_eye", EntityType.Builder.of(SwarmEyeEntity::new, MobCategory.MONSTER).sized(0.6f, 1.8f).clientTrackingRange(8));
+    public static final EntityType<SwarmEyeEntity> SWARM_EYE = register("swarm_eye", EntityType.Builder.of(SwarmEyeEntity::new, MobCategory.MONSTER).sized(0.8f, 0.8f).clientTrackingRange(8));
     public static final EntityType<DamperEntity> DAMPER = register("damper", EntityType.Builder.of(DamperEntity::new, MobCategory.MONSTER).sized(0.6f, 2.9f));
     public static final EntityType<BifauceEntity> BIFAUCE = register("bifauce", EntityType.Builder.of(BifauceEntity::new, MobCategory.MONSTER).sized(0.6f, 2.9f));
     public static final EntityType<FakeCreeperEntity> FAKE_CREEPER = register("fake_creeper", EntityType.Builder.of(FakeCreeperEntity::new, MobCategory.MONSTER).sized(0.6f, 1.7f));
@@ -32,13 +28,8 @@ public final class ModEntities {
         FabricDefaultAttributeRegistry.register(DAMPER, DamperEntity.createAttributes());
         FabricDefaultAttributeRegistry.register(BIFAUCE, BifauceEntity.createAttributes());
         FabricDefaultAttributeRegistry.register(FAKE_CREEPER, FakeCreeperEntity.createAttributes());
-        addSpawn(SWARM_EYE, 20, 1, 2);
-        addSpawn(DAMPER, 10, 1, 1);
-        addSpawn(BIFAUCE, 12, 1, 1);
-        addSpawn(FAKE_CREEPER, 14, 1, 2);
-    }
-
-    private static void addSpawn(EntityType<? extends Monster> type, int weight, int min, int max) {
-        BiomeModifications.addSpawn(BiomeSelectors.foundInOverworld(), MobCategory.MONSTER, type, weight, min, max);
+        // No Overworld biome spawns any more: before the awakening they do not appear at all, and afterwards the yokai
+        // encounter director (ryuna.qdeath.yokai.EncounterDirector) places them, so encounters are never doubled.
+        // Their Hell spawns live in the Hell biomes' JSON and are unchanged.
     }
 }

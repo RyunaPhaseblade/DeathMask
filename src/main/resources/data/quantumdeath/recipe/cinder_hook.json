@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " CT",
+    " IC",
+    "I  "
+  ],
+  "key": {
+    "C": "quantumdeath:cinder_shard",
+    "T": "minecraft:tripwire_hook",
+    "I": "minecraft:iron_chain"
+  },
+  "result": {
+    "id": "quantumdeath:cinder_hook",
+    "count": 1
+  }
+}

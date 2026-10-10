@@ -1,0 +1,145 @@
+{
+  "noise": {
+    "min_y": 0,
+    "height": 192
+  },
+  "default_block": "quantumdeath:gristle",
+  "default_fluid": "minecraft:water",
+  "noise_router": {
+    "chunk_surface_level": 0.0,
+    "continents": 0.0,
+    "depth": 0.0,
+    "erosion": 0.0,
+    "ridges": 0.0,
+    "final_density": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:squeeze",
+        "input": {
+          "type": "minecraft:interpolated",
+          "cell_size_xz": 4,
+          "cell_size_y": 8,
+          "input": {
+            "type": "minecraft:mul",
+            "left": {
+              "type": "minecraft:blend_density",
+              "input": {
+                "type": "minecraft:lerp",
+                "alpha": {
+                  "type": "minecraft:gradient",
+                  "axis": "y",
+                  "from_coordinate": -8,
+                  "from_value": 0.0,
+                  "to_coordinate": 30,
+                  "to_value": 1.0
+                },
+                "first": 2.5,
+                "second": {
+                  "type": "minecraft:lerp",
+                  "alpha": {
+                    "type": "minecraft:gradient",
+                    "axis": "y",
+                    "from_coordinate": 150,
+                    "from_value": 1.0,
+                    "to_coordinate": 192,
+                    "to_value": 0.0
+                  },
+                  "first": 0.9375,
+                  "second": {
+                    "type": "minecraft:old_blended_noise",
+                    "xz_scale": 0.25,
+                    "y_scale": 0.09,
+                    "xz_factor": 70.0,
+                    "y_factor": 220.0,
+                    "smear_scale_multiplier": 8.0
+                  }
+                }
+              }
+            },
+            "right": 0.64
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:beardifier"
+      }
+    },
+    "temperature": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:nether/temperature",
+      "xz_scale": 0.25,
+      "y_scale": 0.0
+    },
+    "vegetation": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:nether/vegetation",
+      "xz_scale": 0.25,
+      "y_scale": 0.0
+    }
+  },
+  "material_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      "minecraft:bedrock_floor",
+      "minecraft:bedrock_roof",
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "quantumdeath:bile_shallows"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": "minecraft:on_floor",
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": "quantumdeath:gristle"
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": "minecraft:under_floor",
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": "quantumdeath:flesh"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": "minecraft:on_floor",
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": "quantumdeath:flesh"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": "minecraft:under_floor",
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": "quantumdeath:flesh"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": "minecraft:under_ceiling",
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": "quantumdeath:flesh"
+        }
+      }
+    ]
+  },
+  "spawn_target": [],
+  "sea_level": 31,
+  "disable_mob_generation": false,
+  "legacy_random_source": true
+}

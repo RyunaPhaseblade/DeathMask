@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "quantumdeath:block/pilgrim_remains",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "quantumdeath:block/pilgrim_remains",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "quantumdeath:block/pilgrim_remains",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "quantumdeath:block/pilgrim_remains",
+      "y": 270
+    }
+  }
+}

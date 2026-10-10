@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MZM",
+    "TCT",
+    "MZM"
+  ],
+  "key": {
+    "M": "quantumdeath:mask_fragment",
+    "Z": "quantumdeath:zenith_shard",
+    "T": "quantumdeath:frozen_tear",
+    "C": "minecraft:candle"
+  },
+  "result": {
+    "id": "quantumdeath:last_candle",
+    "count": 1
+  }
+}

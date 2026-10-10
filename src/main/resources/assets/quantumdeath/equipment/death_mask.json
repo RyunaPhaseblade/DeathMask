@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "quantumdeath:death_mask"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "quantumdeath:death_mask"
+      }
+    ]
+  }
+}

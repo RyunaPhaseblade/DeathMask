@@ -1,0 +1,48 @@
+{
+  "type": "quantumdeath:mire",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "quantumdeath:mire",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "quantumdeath:styx_shallows",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumdeath:sullen_depths",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": -0.5,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumdeath:wrathful_bluffs",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.1
+          }
+        }
+      ]
+    }
+  }
+}

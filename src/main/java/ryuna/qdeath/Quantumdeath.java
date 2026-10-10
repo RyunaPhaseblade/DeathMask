@@ -37,9 +37,14 @@ public class Quantumdeath implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Death Mask: Descent is opening the way down.");
 		modItems.initialize();
 		ModEntities.initialize();
+		// The Anti-Perma Burn effect/potion and the Nether perma-burn rule were never wired up; Hell relies on the potion.
+		ryuna.qdeath.effects.modEffects.register();
+		ryuna.qdeath.events.modEvents.register();
+		initHell();
+		initTechniques();
 		PayloadTypeRegistry.serverboundPlay().register(SkillPackets.UnlockRequest.TYPE, SkillPackets.UnlockRequest.CODEC);
 		PayloadTypeRegistry.clientboundPlay().register(SkillPackets.Sync.TYPE, SkillPackets.Sync.CODEC);
 		PayloadTypeRegistry.clientboundPlay().register(SkillPackets.OpenSkills.TYPE, SkillPackets.OpenSkills.CODEC);
@@ -71,6 +76,40 @@ public class Quantumdeath implements ModInitializer {
 									context.getSource().sendSuccess(() -> net.minecraft.network.chat.Component.translatable("command.quantumdeath.skills.reset", players.size()), true);
 									return players.size();
 								}))))));
+	}
+
+	/** The Hell expansion: five layers, their creatures, bosses, VIGIL, and the systems connecting them. */
+	private static void initHell() {
+		ryuna.qdeath.registry.ModSounds.init();
+		ryuna.qdeath.registry.ModParticles.init();
+		ryuna.qdeath.registry.ModEffects.init();
+		ryuna.qdeath.registry.ModBlocks.init();
+		ryuna.qdeath.registry.HellEntities.init();
+		ryuna.qdeath.registry.HellItems.init();
+		// The yokai awakening, cursed perception and shikigami (docs/yokai-shikigamis-percepcion.md).
+		ryuna.qdeath.yokai.YokaiContent.init();
+		ryuna.qdeath.registry.HellWorldgen.init();
+		ryuna.qdeath.registry.HellTab.init();
+		ryuna.qdeath.registry.BestiaryTab.init();
+		ryuna.qdeath.hell.HellProgress.init();
+		ryuna.qdeath.limbo.Consecration.init();
+		ryuna.qdeath.limbo.plague.PlagueDirector.init();
+		ryuna.qdeath.limbo.LimboEvents.register();
+		ryuna.qdeath.hell.HellEvents.register();
+		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> ryuna.qdeath.hell.HellCommands.register(dispatcher));
+		if (Boolean.getBoolean("quantumdeath.worldgenDump")) ryuna.qdeath.hell.WorldgenDump.register();
+	}
+
+	/** Cursed-technique classes (Choso, Uraume, Jogo, Naoya, Todo), opened from the Wisdom of the Void. */
+	private static void initTechniques() {
+		ryuna.qdeath.jjk.JjkBalance.load();
+		ryuna.qdeath.jjk.JjkContent.init();
+		ryuna.qdeath.jjk.JjkClasses.init();
+		ryuna.qdeath.jjk.Techniques.register();
+		ryuna.qdeath.jjk.JjkCombat.register();
+		ryuna.qdeath.jjk.Freeze.register();
+		net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.SERVER_STOPPED.register(s -> ryuna.qdeath.jjk.naoya.Naoya.clearHistory());
+		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> ryuna.qdeath.jjk.JjkCommands.register(dispatcher));
 	}
 
 	private static void giveInitialNotes(net.minecraft.server.level.ServerPlayer player) {

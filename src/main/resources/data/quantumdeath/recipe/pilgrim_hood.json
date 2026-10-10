@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MTM",
+    "M M"
+  ],
+  "key": {
+    "M": "quantumdeath:sinew",
+    "T": "quantumdeath:cinder_shard"
+  },
+  "result": {
+    "id": "quantumdeath:pilgrim_hood",
+    "count": 1
+  }
+}
